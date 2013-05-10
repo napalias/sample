@@ -14,17 +14,10 @@
         <meta name="Robots" content="ALL" /> 
  
         <meta name="Distribution" content="GLOBAL" /> 
-        <meta name="Identifier-URL" content="" /> 
- 
- 
-       
         
- 
  
         <link href="css/style.css" rel="stylesheet" type="text/css" /> 
  
-
-
  
     </head> 
     <body> 
