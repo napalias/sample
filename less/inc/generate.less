@@ -1,0 +1,28 @@
+.button(@w, @h){
+	@hoverPosY 	: @h*-1;
+	@image  	: @img;
+
+	display: block;
+	width: @w+px;
+	height: @h+px;
+
+	&:hover{
+		background-position: 0 @hoverPosY;
+	}
+}
+
+.buttonImage(@w, @h, @img, @bcolor : none){
+	@hoverPosY 	: @h*-1;
+	@image  	: @img;
+
+	display: block;
+	width: @w+px;
+	height: @h+px;
+	text-indent: -9999px;
+	font-size: 0px;
+	background: @bcolor url(@image) no-repeat 0 0;
+
+	&:hover{
+		background-position: 0 @hoverPosY;
+	}
+}
