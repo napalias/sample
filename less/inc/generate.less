@@ -1,28 +1,17 @@
 .button(@w, @h){
-	@hoverPosY 	: @h*-1;
-	@image  	: @img;
-
 	display: block;
-	width: @w+px;
-	height: @h+px;
-
-	&:hover{
-		background-position: 0 @hoverPosY;
-	}
+	width: @w*1px;
+	height: @w*1px;	
 }
 
 .buttonImage(@w, @h, @img, @bcolor : none){
-	@hoverPosY 	: @h*-1;
-	@image  	: @img;
-
 	display: block;
-	width: @w+px;
-	height: @h+px;
+	width: @w*1px;
+	height: @h*1px;
 	text-indent: -9999px;
 	font-size: 0px;
-	background: @bcolor url(@image) no-repeat 0 0;
-
+	
 	&:hover{
-		background-position: 0 @hoverPosY;
+		background-position: 0 @h*-1px;
 	}
 }
