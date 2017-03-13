@@ -16,4 +16,5 @@ gulp.task('images', () =>
         .pipe(gulp.dest('images'))
 );
 
-gulp.task('default', ['less']);
+gulp.task('watch', ['less']);
+gulp.task('default', ['watch']);

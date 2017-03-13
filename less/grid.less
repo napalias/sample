@@ -1,0 +1,209 @@
+/*
+  Grids 12 col
+*/
+
+@cTotal: 12;
+@cSize: @width/@cTotal;
+
+.g-half {
+  width: @cSize * @cTotal / 2;
+}
+
+.g-1 {
+  width: @cSize * 1;
+}
+
+.g-2 {
+  width: @cSize * 2;
+}
+
+.g-3 {
+  width: @cSize * 3;
+}
+
+.g-4 {
+  width: @cSize * 4;
+}
+
+.g-5 {
+  width: @cSize * 5;
+}
+
+.g-6 {
+  width: @cSize * 6;
+}
+
+.g-7 {
+  width: @cSize * 7;
+}
+
+.g-8 {
+  width: @cSize * 8;
+}
+
+.g-9 {
+  width: @cSize * 9;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.m-left-auto {
+  margin-left: auto;
+}
+
+.m-half {
+  margin-left: @cSize * @cTotal / 2;
+}
+
+.ml-1 {
+  margin-left: @cSize * 1;
+}
+
+.ml-2 {
+  margin-left: @cSize * 2;
+}
+
+.ml-3 {
+  margin-left: @cSize * 3;
+}
+
+.ml-4 {
+  margin-left: @cSize * 4;
+}
+
+.ml-5 {
+  margin-left: @cSize * 5;
+}
+
+.ml-6 {
+  margin-left: @cSize * 6;
+}
+
+.ml-7 {
+  margin-left: @cSize * 7;
+}
+
+.ml-8 {
+  margin-left: @cSize * 8;
+}
+
+.ml-85 {
+  margin-left: @cSize * 8 + @cSize /2;
+}
+
+.ml-9 {
+  margin-left: @cSize * 9;
+}
+
+.ml-10 {
+  margin-left: @cSize * 10;
+}
+
+.ml-11 {
+  margin-left: @cSize * 11;
+}
+
+.ml-12 {
+  margin-left: @cSize * 12;
+}
+
+.mr-1 {
+  margin-right: @cSize * 1;
+}
+
+.mr-2 {
+  margin-right: @cSize * 2;
+}
+
+.mr-3 {
+  margin-right: @cSize * 3;
+}
+
+.mr-4 {
+  margin-right: @cSize * 4;
+}
+
+.mr-5 {
+  margin-right: @cSize * 5;
+}
+
+.mr-6 {
+  margin-right: @cSize * 6;
+}
+
+.mr-7 {
+  margin-right: @cSize * 7;
+}
+
+.mr-8 {
+  margin-right: @cSize * 8;
+}
+
+.mr-9 {
+  margin-right: @cSize * 9;
+}
+
+.mr-10 {
+  margin-right: @cSize * 10;
+}
+
+.mr-11 {
+  margin-right: @cSize * 11;
+}
+
+.mr-12 {
+  margin-right: @cSize * 12;
+}
+
+@media only screen and (max-width: 600px) {
+  .g-half,
+  .g-1,
+  .g-2,
+  .g-3,
+  .g-4,
+  .g-5,
+  .g-6,
+  .g-7,
+  .g-8,
+  .g-9,
+  .g-10,
+  .g-11,
+  .g-12{
+    width: auto;
+  }
+
+  .m-auto,
+  .m-left-auto,
+  .m-half,
+  .ml-1,
+  .ml-2,
+  .ml-3,
+  .ml-4,
+  .ml-5,
+  .ml-6,
+  .ml-7,
+  .ml-8,
+  .ml-85,
+  .ml-9,
+  .ml-10,
+  .ml-11,
+  .ml-12{
+    margin-left:0;
+  }
+  .mr-1,
+  .mr-2,
+  .mr-3,
+  .mr-4,
+  .mr-5,
+  .mr-6,
+  .mr-7,
+  .mr-8,
+  .mr-9,
+  .mr-10,
+  .mr-11,
+  .mr-12{
+    margin-right:0;
+  }
+}
